@@ -465,5 +465,15 @@ assert_equal(
 assert_equal(
     clear_history(State("Ryan", TEST_HISTORY, 4, 3, 100.0)),
     index(State("Ryan", [], 0, 0, 0.0)))
+set_website_title("Tennis Serve Simulator")
+set_site_information(
+    author="Ryan Miranda",
+    description="Pick a serve type, target, and side, see if the serve lands in, and track your serve percentages.",
+    sources="Drafter documentation. Help from Claude (conversation included in this repository).",
+    planning=["CS1 Final Project 0_ Pick a Problem.pdf", "CS1 Final Project 1_ Design.pdf"],
+    links=["https://github.com/rmiranda-design/tennis-serve-simulator"]
+)
+hide_debug_information()
+set_website_framed(False)
 
 start_server(State("", [], 0, 0, 0.0))
