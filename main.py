@@ -470,7 +470,7 @@ set_site_information(
     author="Ryan Miranda",
     description="Pick a serve type, target, and side, see if the serve lands in, and track your serve percentages.",
     sources="Drafter documentation, coding help from claude, class resources from textbook and previous assinments",
-    planning=["CS1 Final Project 0_ Pick a Problem.pdf", "CS1 Final Project 1_ Design.pdf"],
+    planning=["CS1 Final Project 0_ Pick a Problem.pdf", "CS1 Final Project 1_ Design.pdf", "Final Project 2 LLM Conversation"],
     links=["https://github.com/rmiranda-design/tennis-serve-simulator"]
 )
 hide_debug_information()
